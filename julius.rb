@@ -3,6 +3,7 @@ require 'formula'
 class Julius < Formula
   homepage 'http://julius.sourceforge.jp/'
   url 'http://sourceforge.jp/frs/redir.php?f=/julius/59049/julius-4.2.3.tar.gz'
+  version '4.2.3'
   sha1 '8b1acae4079cbc5ee32b0536da5d4403361a0676'
 
   depends_on 'portaudio' => 'universal'
