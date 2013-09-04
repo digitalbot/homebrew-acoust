@@ -28,13 +28,13 @@ class Julius < Formula
   end
 
   def caveats; <<-EOS.undent
-    Finish installing Julus!
+    Finish installing Julius!
     But you should prepare dictation-kit to using julius.
 
     If you start simple, try:
 
         $ wget "http://sourceforge.jp/frs/redir.php?m=keihanna&f=%2Fjulius%2F59050%2Fdictation-kit-v4.2.3.tar.gz" -O dictation-kit-v4.2.3.tar.gz
-        $ tar xzf dictation-kit-v4.2.3tar.gz
+        $ tar xzf dictation-kit-v4.2.3.tar.gz
         $ cd dictation-kit-v4.2.3
         $ julius -C fast.jconf -charconv EUC-JP UTF-8
 
