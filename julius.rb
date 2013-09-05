@@ -13,13 +13,13 @@ class Julius < Formula
   end
 
   def install
-    ENV.j1
     ENV['CFLAGS'] = '-O3 -arch i386'
     ENV['LDFLAGS'] = '-arch i386'
     args = %W[
       --enable-words-int
       --with-mictype=portaudio
       --prefix=#{prefix}
+      --mandir=#{man}
     ]
 
     system "./configure", *args
